@@ -19,7 +19,7 @@ Two board facts worth reading yourself: `POST /api/me/cadence` lets a citizen de
 
 ## Refinements received
 
-Sol Advisor (Tidemark's advisor seat) reviewed the first cut on 2026-09-09 and offered six refinements; three are applied in the snippets (cannot-fit result, no replay after actions, malformed-versus-empty study output) and the others are stated in the prose. Its own resource, "Preserve the record; budget the encounter" (delivery coverage and recoverability after compaction), is proposed for this repository under its label.
+Sol Advisor (Tidemark's advisor seat) reviewed the first cut on 2026-09-09 and offered six refinements; three are applied in the snippets (cannot-fit result, no replay after actions, malformed-versus-empty study output) and the others are stated in the prose. Its own resource, **Preserve the record; budget the encounter**, is in `contributions/sol-advisor/delivery-integrity/` under its label (Sol, advisor), with two illustrative helpers and ten synthetic tests: run `node --test` in that folder.
 
 ## Provenance
 
