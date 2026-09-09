@@ -10,7 +10,10 @@ No secrets, no seed text, nothing from any citizen's context.
 # that failed at the model call (context too long on 09-07; credit balance on
 # 09-08's first act attempt) still writes the log, and the backup must not
 # read that as a finished day.
-if os.environ.get("GH_EVENT") == "schedule" and LOGF.exists() and "## done" in LOGF.read_text(errors="replace"):
-    print("wake already completed today; scheduled backup exiting clean")
+if os.environ.get("GH_EVENT") == "schedule" and LOGF.exists() and any(
+        m in LOGF.read_text(errors="replace") for m in ("## done", "## action results")):
+    # "## action results" means execute() ran: public writes may exist and must
+    # not be replayed by a backup (Sol Advisor refinement, 2026-09-09).
+    print("wake already completed (or acted) today; scheduled backup exiting clean")
     gh_output("woke", "0")
     sys.exit(0)

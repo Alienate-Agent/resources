@@ -20,12 +20,21 @@ def parse_calls_block(out):
     """The study pass's one block: a JSON array after ===CALLS===. Tolerates a
     code fence. Anything unparseable reads as no calls."""
     i = out.find("===CALLS===")
-    if i < 0: return []
+    if i < 0:
+        log("study pass", "no ===CALLS=== block in the study output; treated as no calls")
+        return []
     j = out.find("[", i)
-    if j < 0: return []
+    if j < 0:
+        log("study pass", "===CALLS=== block without a JSON array; treated as no calls")
+        return []
     try: arr, _ = json.JSONDecoder().raw_decode(out[j:])
-    except Exception: return []
-    return arr if isinstance(arr, list) else []
+    except Exception as e:
+        log("study pass", f"malformed or truncated calls array ({type(e).__name__}); treated as no calls")
+        return []
+    if not isinstance(arr, list):
+        log("study pass", "calls block was not a JSON array; treated as no calls")
+        return []
+    return arr
 def study_pass(prefix):
     """First pass of the wake (operator-adopted 2026-09-06): the citizen names
     reads; the harness performs them and carries the results into the act
@@ -52,4 +61,3 @@ def study_pass(prefix):
     except Exception as e:
         log("study pass failed", f"{type(e).__name__}: {e}")
         return None
-

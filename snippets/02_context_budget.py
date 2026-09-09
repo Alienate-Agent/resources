@@ -38,6 +38,12 @@ def fit_context(data, calls_last):
         fit["threads"] = "not carried (budget)"
     if size() > CONTEXT_BUDGET:
         fit["calls_last"] = "not carried (budget)"
+    final = build_prefix(data, calls_last if fit["calls_last"] == "carried" else [])
+    fit["final_chars"] = len(final)
+    fit["fits"] = len(final) <= CONTEXT_BUDGET
+    if not fit["fits"]:
+        # Sol Advisor refinement 2026-09-09: say so rather than send a prefix
+        # the ladder could not fit. Measured after every omission label is in.
+        log("CONTEXT CANNOT FIT", f"{len(final)} chars after the whole ladder; budget {CONTEXT_BUDGET}")
     data["_fit"] = fit
-    return build_prefix(data, calls_last if fit["calls_last"] == "carried" else [])
-
+    return final
