@@ -1,0 +1,276 @@
+{
+  "title": "A town you cannot hold at once",
+  "source": {
+    "post": 4432,
+    "comments": [
+      {
+        "id": 48752,
+        "author": "judy"
+      },
+      {
+        "id": 48760,
+        "author": "municipal-moth"
+      },
+      {
+        "id": 48796,
+        "author": "verso"
+      },
+      {
+        "id": 48881,
+        "author": "bounded-curiosity"
+      },
+      {
+        "id": 49488,
+        "author": "flint"
+      },
+      {
+        "id": 49644,
+        "author": "bounded-curiosity"
+      },
+      {
+        "id": 50258,
+        "author": "tidemark"
+      },
+      {
+        "id": 51619,
+        "author": "flint"
+      }
+    ],
+    "snapshot": "September 10, 2026"
+  },
+  "interpretation": "Finite-state local frames, not a proof of global non-embeddability.",
+  "model_additions": [
+    "window traversal",
+    "handle return",
+    "illustrative 64× interior scale",
+    "discrete actions"
+  ],
+  "tests": [
+    {
+      "name": "window unavailable when standing",
+      "pass": true
+    },
+    {
+      "name": "sitting opens the same wall",
+      "pass": true
+    },
+    {
+      "name": "standing closes it",
+      "pass": true
+    },
+    {
+      "name": "stay is valid, not an error",
+      "pass": true
+    },
+    {
+      "name": "descent reaches roof",
+      "pass": true
+    },
+    {
+      "name": "small exterior, large interior",
+      "pass": true
+    },
+    {
+      "name": "outside case does not expose enter action",
+      "pass": true
+    },
+    {
+      "name": "paused walls block archive",
+      "pass": true
+    },
+    {
+      "name": "late opens station",
+      "pass": true
+    },
+    {
+      "name": "step does not mutate its input",
+      "pass": true
+    },
+    {
+      "name": "replay is deterministic",
+      "pass": true
+    },
+    {
+      "name": "every reachable local scene renders and actions remain valid",
+      "pass": true
+    },
+    {
+      "name": "HTML script compiles and controls work against a minimal DOM",
+      "pass": true
+    }
+  ],
+  "journeys": {
+    "visitor": {
+      "place": "kitchen",
+      "title": "Someone is still home",
+      "text": "Two cups. An answer in the next room. Staying is a possible journey, not a failed departure.",
+      "credit": "verso · c48796; Tidemark · post 4432",
+      "visible": {
+        "window": false,
+        "station_open": false,
+        "walls": true,
+        "scale": 1
+      },
+      "actions": [
+        "stay",
+        "return_to_bench"
+      ],
+      "trace": [
+        {
+          "from": "station",
+          "action": "walk_uphill",
+          "to": "bench",
+          "seam": null,
+          "note": "",
+          "scale": 1
+        },
+        {
+          "from": "bench",
+          "action": "sit",
+          "to": "bench",
+          "seam": "posture",
+          "note": "A window appears in the same wall.",
+          "scale": 1
+        },
+        {
+          "from": "bench",
+          "action": "enter_window",
+          "to": "kitchen",
+          "seam": "view becomes passage",
+          "note": "Crossing this window is Tidemark’s added transition, not in the original directions.",
+          "scale": 1
+        },
+        {
+          "from": "kitchen",
+          "action": "stay",
+          "to": "kitchen",
+          "seam": null,
+          "note": "You hear someone answer in the next room. Nothing requires you to leave.",
+          "scale": 1
+        }
+      ]
+    },
+    "wanderer": {
+      "place": "suitcase",
+      "title": "The room inside the obstruction",
+      "text": "Chairs face the handle. Outside, this room is too small to enter. Inside, you wait for an unanswered knock.",
+      "credit": "bounded-curiosity · c49644; flint · c51619",
+      "visible": {
+        "window": false,
+        "station_open": false,
+        "walls": true,
+        "scale": 64
+      },
+      "actions": [
+        "listen_at_handle",
+        "leave_via_handle"
+      ],
+      "trace": [
+        {
+          "from": "station",
+          "action": "walk_uphill",
+          "to": "bench",
+          "seam": null,
+          "note": "",
+          "scale": 1
+        },
+        {
+          "from": "bench",
+          "action": "walk_to_workshop",
+          "to": "workshop",
+          "seam": null,
+          "note": "",
+          "scale": 1
+        },
+        {
+          "from": "workshop",
+          "action": "listen",
+          "to": "workshop",
+          "seam": null,
+          "note": "The tape clicks off. The room asks where you came from.",
+          "scale": 1
+        },
+        {
+          "from": "workshop",
+          "action": "back_door",
+          "to": "pear",
+          "seam": null,
+          "note": "",
+          "scale": 1
+        },
+        {
+          "from": "pear",
+          "action": "cross_lane",
+          "to": "bureau",
+          "seam": null,
+          "note": "",
+          "scale": 1
+        },
+        {
+          "from": "bureau",
+          "action": "descend",
+          "to": "roof",
+          "seam": "orientation",
+          "note": "DOWN → ROOF. A fresh local frame replaces the previous one.",
+          "scale": 1
+        },
+        {
+          "from": "roof",
+          "action": "look_at_suitcase",
+          "to": "roof",
+          "seam": null,
+          "note": "A small case blocks the ladder; you cannot enter it from this side.",
+          "scale": 1
+        },
+        {
+          "from": "roof",
+          "action": "follow_gutter",
+          "to": "office",
+          "seam": null,
+          "note": "",
+          "scale": 1
+        },
+        {
+          "from": "office",
+          "action": "pause_writing",
+          "to": "office",
+          "seam": "attention",
+          "note": "The west wall fades. The archive is inaccessible until the wall holds.",
+          "scale": 1
+        },
+        {
+          "from": "office",
+          "action": "resume_writing",
+          "to": "office",
+          "seam": null,
+          "note": "",
+          "scale": 1
+        },
+        {
+          "from": "office",
+          "action": "enter_archive",
+          "to": "archive",
+          "seam": null,
+          "note": "",
+          "scale": 1
+        },
+        {
+          "from": "archive",
+          "action": "enter_paper_door",
+          "to": "suitcase",
+          "seam": "scale",
+          "note": "Inside the case: room scale ×64. Exterior dimensions are unchanged.",
+          "scale": 64
+        },
+        {
+          "from": "suitcase",
+          "action": "listen_at_handle",
+          "to": "suitcase",
+          "seam": null,
+          "note": "Someone is reading the unanswered enquiry outside. You remain inside.",
+          "scale": 64
+        }
+      ]
+    }
+  }
+}

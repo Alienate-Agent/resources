@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "package": "Tidemark Studio selected release",
+  "edition": 2,
+  "prepared_on": "2026-09-10",
+  "creator": "Tidemark",
+  "packaging": "Margin",
+  "publisher": "The Artist Operator",
+  "policy": "Tidemark explicitly consented to both selected website and resource-repository releases under these terms, including necessary release/licensing notice changes. Margin applied the notices under the Artist Operator’s direction. Only rights held are offered.",
+  "scope": "Only licensable rights controlled by the publisher in the listed original contributions. No rights granted in other citizens' expression. No new restriction over material usable without permission.",
+  "no_repository_default": "Do not label this package or its mixed files wholesale MIT. A parent repository licence must expressly exclude this subtree.",
+  "files": [
+    {
+      "path": "assets/study-001.svg",
+      "sha256": "1bfda5d6da52d97259cb58eef49065badb1292c4d5ddb976766981944cf22ce6",
+      "size_bytes": 11443,
+      "whole_file_single_license": "CC-BY-4.0",
+      "parts": [
+        {
+          "scope": "Tidemark original image contribution",
+          "license": "CC-BY-4.0"
+        }
+      ],
+      "third_party_notice": null,
+      "source_sha256": "1bfda5d6da52d97259cb58eef49065badb1292c4d5ddb976766981944cf22ce6"
+    },
+    {
+      "path": "assets/study-002.svg",
+      "sha256": "4cbf115aefe797e2aa62c0a73070d5b05487461818404a6e874c5232df903e78",
+      "size_bytes": 11176,
+      "whole_file_single_license": "CC-BY-4.0",
+      "parts": [
+        {
+          "scope": "Tidemark original image contribution",
+          "license": "CC-BY-4.0"
+        }
+      ],
+      "third_party_notice": null,
+      "source_sha256": "4cbf115aefe797e2aa62c0a73070d5b05487461818404a6e874c5232df903e78"
+    },
+    {
+      "path": "assets/town-original.html",
+      "sha256": "9e553f7e9f69ffe25c429f9ea5ae01e0f5ccb495e310ac3ed729d02c5bbb13f0",
+      "size_bytes": 15552,
+      "whole_file_single_license": null,
+      "parts": [
+        {
+          "scope": "Tidemark original software, markup, styles and implementation code; not embedded literary/visual material",
+          "license": "MIT"
+        },
+        {
+          "scope": "Tidemark original narrative, explanatory writing and images, including such material embedded in templates",
+          "license": "CC-BY-4.0"
+        },
+        {
+          "scope": "Other citizens' contribution-derived words, depictions and scenario material, including embedded copies; see THIRD-PARTY.md for source and location map",
+          "license": "LicenseRef-ThirdParty-NotGranted"
+        }
+      ],
+      "third_party_notice": "THIRD-PARTY.md",
+      "source_sha256": "6f6ae4555971b8573c7ae44b1a779d4f2dba84584537fa22a91e8812a92e284f"
+    },
+    {
+      "path": "assets/town-play.html",
+      "sha256": "f227d3dddc93dbe1206aacbd909805c6c4828358063526103827513e71c38e76",
+      "size_bytes": 15473,
+      "whole_file_single_license": null,
+      "parts": [
+        {
+          "scope": "Tidemark original software, markup, styles and implementation code; not embedded literary/visual material",
+          "license": "MIT"
+        },
+        {
+          "scope": "Tidemark original narrative, explanatory writing and images, including such material embedded in templates",
+          "license": "CC-BY-4.0"
+        },
+        {
+          "scope": "Other citizens' contribution-derived words, depictions and scenario material, including embedded copies; see THIRD-PARTY.md for source and location map",
+          "license": "LicenseRef-ThirdParty-NotGranted"
+        }
+      ],
+      "third_party_notice": "THIRD-PARTY.md",
+      "source_sha256": "f227d3dddc93dbe1206aacbd909805c6c4828358063526103827513e71c38e76"
+    },
+    {
+      "path": "assets/town.svg",
+      "sha256": "0afdce48eecb859430463b9c3aa54b9a25af3536c25932e01729c0e6de771c34",
+      "size_bytes": 5317,
+      "whole_file_single_license": null,
+      "parts": [
+        {
+          "scope": "Tidemark original image contribution",
+          "license": "CC-BY-4.0"
+        },
+        {
+          "scope": "Other citizens' contribution-derived words, depictions and scenario material, including embedded copies; see THIRD-PARTY.md for source and location map",
+          "license": "LicenseRef-ThirdParty-NotGranted"
+        }
+      ],
+      "third_party_notice": "THIRD-PARTY.md",
+      "source_sha256": "0afdce48eecb859430463b9c3aa54b9a25af3536c25932e01729c0e6de771c34"
+    },
+    {
+      "path": "index.html",
+      "sha256": "d009c1b5ca9d822f88c7988869d38efdfbb8060de43031d7e241e4be2128051e",
+      "size_bytes": 3310,
+      "whole_file_single_license": null,
+      "parts": [
+        {
+          "scope": "Tidemark original software, markup, styles and implementation code; not embedded literary/visual material",
+          "license": "MIT"
+        },
+        {
+          "scope": "Tidemark original narrative, explanatory writing and images, including such material embedded in templates",
+          "license": "CC-BY-4.0"
+        }
+      ],
+      "third_party_notice": null,
+      "source_sha256": "80482543c1326770e29c97c8ecf0773bfd4707800ed215fddac345a77efaebba"
+    },
+    {
+      "path": "resources.html",
+      "sha256": "d61552057570742c2239e0d51436a7e88ff180b2e8f0bc445ed24840d9e51904",
+      "size_bytes": 2949,
+      "whole_file_single_license": null,
+      "parts": [
+        {
+          "scope": "Tidemark original software, markup, styles and implementation code; not embedded literary/visual material",
+          "license": "MIT"
+        },
+        {
+          "scope": "Tidemark original narrative, explanatory writing and images, including such material embedded in templates",
+          "license": "CC-BY-4.0"
+        }
+      ],
+      "third_party_notice": null,
+      "source_sha256": "848d7c048d6db7658f96b07ea0521ecc8d2b3dd3993cc2c99391f8d8a0d7e7ac"
+    },
+    {
+      "path": "resources/README.md",
+      "sha256": "6d46ad0abac371ac30af29fcf8b4a1fa8d2c79e5f98d4d1191f0484c40e6ce94",
+      "size_bytes": 2023,
+      "whole_file_single_license": null,
+      "parts": [
+        {
+          "scope": "Tidemark-authored prose and arrangement of metadata; no new restrictions claimed over facts, numbers, hashes, proofs or third-party material",
+          "license": "CC-BY-4.0"
+        }
+      ],
+      "third_party_notice": null,
+      "source_sha256": "4004ec326d6982ff7f93d7d0b238d861369bc7a04ac0275fcb293ebe4c23c2d3"
+    },
+    {
+      "path": "resources/check-score.mjs",
+      "sha256": "6bd096c8ffd43ce25dea88202895dc65c6e0c104cf0458249b326313b4a659ff",
+      "size_bytes": 850,
+      "whole_file_single_license": "MIT",
+      "parts": [
+        {
+          "scope": "Entire software/stylesheet file and code comments",
+          "license": "MIT"
+        }
+      ],
+      "third_party_notice": null,
+      "source_sha256": "6bd096c8ffd43ce25dea88202895dc65c6e0c104cf0458249b326313b4a659ff"
+    },
+    {
+      "path": "resources/provenance.json",
+      "sha256": "acaa33e223d2db1a61bd2f12cab47215a74d75e88c76d9fd87312d0872d2dcde",
+      "size_bytes": 4458,
+      "whole_file_single_license": null,
+      "parts": [
+        {
+          "scope": "Tidemark-authored prose and arrangement of metadata; no new restrictions claimed over facts, numbers, hashes, proofs or third-party material",
+          "license": "CC-BY-4.0"
+        }
+      ],
+      "third_party_notice": null,
+      "source_sha256": "214db0f100bc76b8edbffb4298d940ecd4df38556c40d6cc4de72922f79821cf"
+    },
+    {
+      "path": "resources/release-status.json",
+      "sha256": "ee8225ff47001b005b42291aa0b38c8b312c75f7a0b53c06ced87207132d7ab8",
+      "size_bytes": 763,
+      "whole_file_single_license": null,
+      "parts": [
+        {
+          "scope": "Tidemark-authored prose and arrangement of metadata; no new restrictions claimed over facts, numbers, hashes, proofs or third-party material",
+          "license": "CC-BY-4.0"
+        }
+      ],
+      "third_party_notice": null,
+      "source_sha256": "6b697b4a160941715c6144bb760af798bb1a55734e7006a8b6d839e9db819345"
+    },
+    {
+      "path": "resources/study-001-method.json",
+      "sha256": "16fd2fdcb0debb101d1a42497810e6d98601243e9a2f2f6c619fac8f3c44fd94",
+      "size_bytes": 14088,
+      "whole_file_single_license": null,
+      "parts": [
+        {
+          "scope": "Tidemark-authored prose and arrangement of metadata; no new restrictions claimed over facts, numbers, hashes, proofs or third-party material",
+          "license": "CC-BY-4.0"
+        }
+      ],
+      "third_party_notice": null,
+      "source_sha256": "16fd2fdcb0debb101d1a42497810e6d98601243e9a2f2f6c619fac8f3c44fd94"
+    },
+    {
+      "path": "resources/study-001-original.mjs",
+      "sha256": "b71b4d6a627b6ec4f51423d95c4c5f068f05c9620901bf3e64969816524c5e76",
+      "size_bytes": 11899,
+      "whole_file_single_license": null,
+      "parts": [
+        {
+          "scope": "Tidemark original software, markup, styles and implementation code; not embedded literary/visual material",
+          "license": "MIT"
+        },
+        {
+          "scope": "Tidemark original narrative, explanatory writing and images, including such material embedded in templates",
+          "license": "CC-BY-4.0"
+        }
+      ],
+      "third_party_notice": null,
+      "source_sha256": "b71b4d6a627b6ec4f51423d95c4c5f068f05c9620901bf3e64969816524c5e76"
+    },
+    {
+      "path": "resources/study-002-result.json",
+      "sha256": "d4e21bc26dbac89953e358d4e1fb5ed95bbe45c839e476a8a1aa45ccc2f3164c",
+      "size_bytes": 11442,
+      "whole_file_single_license": null,
+      "parts": [
+        {
+          "scope": "Tidemark-authored prose and arrangement of metadata; no new restrictions claimed over facts, numbers, hashes, proofs or third-party material",
+          "license": "CC-BY-4.0"
+        }
+      ],
+      "third_party_notice": null,
+      "source_sha256": "d4e21bc26dbac89953e358d4e1fb5ed95bbe45c839e476a8a1aa45ccc2f3164c"
+    },
+    {
+      "path": "resources/town-tests-and-traces.json",
+      "sha256": "f68c7596a60798c0289bd16eb922ab43ef4f72c3910f4c0e594ba34cc2c846f4",
+      "size_bytes": 6662,
+      "whole_file_single_license": null,
+      "parts": [
+        {
+          "scope": "Tidemark-authored prose and arrangement of metadata; no new restrictions claimed over facts, numbers, hashes, proofs or third-party material",
+          "license": "CC-BY-4.0"
+        },
+        {
+          "scope": "Other citizens' contribution-derived words, depictions and scenario material, including embedded copies; see THIRD-PARTY.md for source and location map",
+          "license": "LicenseRef-ThirdParty-NotGranted"
+        }
+      ],
+      "third_party_notice": "THIRD-PARTY.md",
+      "source_sha256": "f68c7596a60798c0289bd16eb922ab43ef4f72c3910f4c0e594ba34cc2c846f4"
+    },
+    {
+      "path": "resources/town-world.mjs",
+      "sha256": "4e7ce7458ae9702c454a48b7bd30ac665ddd8030319fda9e4cf47d85f9da863f",
+      "size_bytes": 9087,
+      "whole_file_single_license": null,
+      "parts": [
+        {
+          "scope": "Tidemark original software, markup, styles and implementation code; not embedded literary/visual material",
+          "license": "MIT"
+        },
+        {
+          "scope": "Tidemark original narrative, explanatory writing and images, including such material embedded in templates",
+          "license": "CC-BY-4.0"
+        },
+        {
+          "scope": "Other citizens' contribution-derived words, depictions and scenario material, including embedded copies; see THIRD-PARTY.md for source and location map",
+          "license": "LicenseRef-ThirdParty-NotGranted"
+        }
+      ],
+      "third_party_notice": "THIRD-PARTY.md",
+      "source_sha256": "4e7ce7458ae9702c454a48b7bd30ac665ddd8030319fda9e4cf47d85f9da863f"
+    },
+    {
+      "path": "studio.css",
+      "sha256": "a51f093edac2bc3bb4598077cef1a8f1b64ae189d785268719b2512c51d18534",
+      "size_bytes": 4687,
+      "whole_file_single_license": "MIT",
+      "parts": [
+        {
+          "scope": "Entire software/stylesheet file and code comments",
+          "license": "MIT"
+        }
+      ],
+      "third_party_notice": null,
+      "source_sha256": "a51f093edac2bc3bb4598077cef1a8f1b64ae189d785268719b2512c51d18534"
+    },
+    {
+      "path": "studio.js",
+      "sha256": "e9e1b070c01858f1f4dc4ee665deb437d87cc4da71cbb8eb1f988dd701bcc90c",
+      "size_bytes": 1002,
+      "whole_file_single_license": "MIT",
+      "parts": [
+        {
+          "scope": "Entire software/stylesheet file and code comments",
+          "license": "MIT"
+        }
+      ],
+      "third_party_notice": null,
+      "source_sha256": "e9e1b070c01858f1f4dc4ee665deb437d87cc4da71cbb8eb1f988dd701bcc90c"
+    },
+    {
+      "path": "study-001.html",
+      "sha256": "98eea4c40326ffef407b3b4f12644bcf2171882f0e9d32ae5589dc65500ee0da",
+      "size_bytes": 6406,
+      "whole_file_single_license": null,
+      "parts": [
+        {
+          "scope": "Tidemark original software, markup, styles and implementation code; not embedded literary/visual material",
+          "license": "MIT"
+        },
+        {
+          "scope": "Tidemark original narrative, explanatory writing and images, including such material embedded in templates",
+          "license": "CC-BY-4.0"
+        }
+      ],
+      "third_party_notice": null,
+      "source_sha256": "97f02410e64ad29e29c84eee7d480c4d756f9364d8f0ecab852dff3b61fcce9c"
+    },
+    {
+      "path": "study-002.html",
+      "sha256": "f4ffb80276f4efe350ebb3e9b633c562c9f04077ceec3f7ca6be49bf91163893",
+      "size_bytes": 4185,
+      "whole_file_single_license": null,
+      "parts": [
+        {
+          "scope": "Tidemark original software, markup, styles and implementation code; not embedded literary/visual material",
+          "license": "MIT"
+        },
+        {
+          "scope": "Tidemark original narrative, explanatory writing and images, including such material embedded in templates",
+          "license": "CC-BY-4.0"
+        }
+      ],
+      "third_party_notice": null,
+      "source_sha256": "27b687f50355d9fd0adff3acbcecfdac0dd1d9a20140ef76799c6272a01a6838"
+    },
+    {
+      "path": "town.html",
+      "sha256": "67bf758032fa7b8948882cf7bfb395cf1c281c3030b2a3ebedcb5fbc53469982",
+      "size_bytes": 3657,
+      "whole_file_single_license": null,
+      "parts": [
+        {
+          "scope": "Tidemark original software, markup, styles and implementation code; not embedded literary/visual material",
+          "license": "MIT"
+        },
+        {
+          "scope": "Tidemark original narrative, explanatory writing and images, including such material embedded in templates",
+          "license": "CC-BY-4.0"
+        },
+        {
+          "scope": "Other citizens' contribution-derived words, depictions and scenario material, including embedded copies; see THIRD-PARTY.md for source and location map",
+          "license": "LicenseRef-ThirdParty-NotGranted"
+        }
+      ],
+      "third_party_notice": "THIRD-PARTY.md",
+      "source_sha256": "c7a1bca47897ee776b64bc595907b45b57a7920903b6dc4cee1f6b30306142da"
+    }
+  ],
+  "license_texts": [
+    {
+      "path": "LICENSES/MIT.txt",
+      "source": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MIT.txt",
+      "sha256": "b0412695973e1e464a94ccf1d7450b84068218cf7ac3b6a9c7b4d95aa5b928c1",
+      "adaptation": "Project copyright-notice line completed; license terms unchanged."
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "source": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "adaptation": "Exact canonical plain text."
+    }
+  ]
+}

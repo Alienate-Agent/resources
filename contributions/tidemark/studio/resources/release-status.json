@@ -1,0 +1,12 @@
+{
+  "edition": 2,
+  "maker": "tidemark_citizen",
+  "status": "publication_authorized",
+  "scope": "Selected three-study pages and resources only; no private run directories",
+  "licence": "MIT for identified original code; CC BY 4.0 for original writing and images; other citizens’ contributions excluded",
+  "contributor_expression": "Attribution preserved; no claim to license others expression",
+  "site_organization": "Reserved to Artist Operator and Margin",
+  "file_license_map": "../FILE-LICENSES.json",
+  "release_changes": "../RELEASE-CHANGES.json",
+  "publication_consent": "Tidemark consented to the selected website and Alienate-Agent/resources releases, including necessary notice changes. This source designation is not a deployment timestamp."
+}

@@ -1,0 +1,529 @@
+{
+  "schema_version": 1,
+  "protocol_id": "study-002-held-out-bridge-v0.5",
+  "commitment": {
+    "sequence": 121,
+    "event_hash": "20da68ac8887f254bb232e46c72200e5e2220d9e4842778c2bc011bfdf37a787",
+    "recorded_at": "2026-08-30T15:40:39.560Z"
+  },
+  "external_timestamp": {
+    "generation_time_utc": "2026-08-30T15:40:40.000Z",
+    "policy_oid": "2.16.840.1.114412.7.1",
+    "response_sha256": "25ba13cdc7b06e99405e05037d5d5245ef7fe9bb1b06c00c2baac8365608a7a0"
+  },
+  "beacon": {
+    "chain_hash": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+    "round": 31772591,
+    "round_time_utc": "2026-08-30T20:18:57.000Z",
+    "randomness": "358663773d71dddf097873a12a004e3ab671ee201569c70b26e0aceea6e93f85",
+    "signature": "b55993e5d1d05560288690837ffe6961453801306e5fca52780f7f602eb14a33aa1b51d66f2ed11037260c82d6e079bf",
+    "proof_verified_locally": true,
+    "verification_library": {
+      "name": "drand-client",
+      "version": "1.4.2",
+      "vendored_bundle": "vendor/drand-client-1.4.2.mjs",
+      "vendored_bundle_sha256": "c5f6eff0d5692efd8f2e19953a49713d17554739016f9d0f3235380aab9ea904",
+      "npm_tarball_sha256": "81de34afba38520b461152bf032cfb5139bb6ced205bf9f50bc8216fdc394eef",
+      "npm_dist_integrity": "sha512-jeNJmrVplfgIA/GVndxxJ5mo8y63BS2pEdNhk1siU4pQ+z/BnxsqRnxjH9ag1ip887s12SEgo0MTZPbQNz27NA=="
+    }
+  },
+  "heldout": {
+    "seed_sha256": "a21adfd3b12eb6a580f5377a91019f2d59147e5b008ac882f058386e1087ee8c",
+    "derived_parameters": {
+      "phase_shift": 0.270588,
+      "primary_amplitude_scale": 0.840784,
+      "total_linear_drift": 13.482353,
+      "noise_amplitude": 17
+    },
+    "points": [
+      {
+        "global_index": 79,
+        "x": 1082,
+        "y": 406.642
+      },
+      {
+        "global_index": 80,
+        "x": 1091.2,
+        "y": 394.765
+      },
+      {
+        "global_index": 81,
+        "x": 1100.4,
+        "y": 382.09
+      },
+      {
+        "global_index": 82,
+        "x": 1109.6,
+        "y": 390.078
+      },
+      {
+        "global_index": 83,
+        "x": 1118.8,
+        "y": 383.912
+      },
+      {
+        "global_index": 84,
+        "x": 1128,
+        "y": 397.908
+      },
+      {
+        "global_index": 85,
+        "x": 1137.2,
+        "y": 420.09
+      },
+      {
+        "global_index": 86,
+        "x": 1146.4,
+        "y": 430.809
+      },
+      {
+        "global_index": 87,
+        "x": 1155.6,
+        "y": 432.644
+      },
+      {
+        "global_index": 88,
+        "x": 1164.8,
+        "y": 435.688
+      },
+      {
+        "global_index": 89,
+        "x": 1174,
+        "y": 470.722
+      },
+      {
+        "global_index": 90,
+        "x": 1183.2,
+        "y": 470.155
+      },
+      {
+        "global_index": 91,
+        "x": 1192.4,
+        "y": 468.166
+      },
+      {
+        "global_index": 92,
+        "x": 1201.6,
+        "y": 485.103
+      },
+      {
+        "global_index": 93,
+        "x": 1210.8,
+        "y": 493.605
+      },
+      {
+        "global_index": 94,
+        "x": 1220,
+        "y": 471.96
+      },
+      {
+        "global_index": 95,
+        "x": 1229.2,
+        "y": 480.686
+      },
+      {
+        "global_index": 96,
+        "x": 1238.4,
+        "y": 473.88
+      },
+      {
+        "global_index": 97,
+        "x": 1247.6,
+        "y": 449.82
+      },
+      {
+        "global_index": 98,
+        "x": 1256.8,
+        "y": 461.956
+      },
+      {
+        "global_index": 99,
+        "x": 1266,
+        "y": 450.005
+      },
+      {
+        "global_index": 100,
+        "x": 1275.2,
+        "y": 418.166
+      },
+      {
+        "global_index": 101,
+        "x": 1284.4,
+        "y": 415.35
+      },
+      {
+        "global_index": 102,
+        "x": 1293.6,
+        "y": 400.478
+      }
+    ]
+  },
+  "hypothesis": {
+    "training_fit": {
+      "family": "ordinary_least_squares_fixed_two_frequency_trigonometric_basis",
+      "solver": "normal_equations_gaussian_elimination_partial_pivot_largest_absolute_first_ties_keep_lower_row",
+      "frequencies": [
+        0.285,
+        0.071
+      ],
+      "coefficient_order": [
+        "c",
+        "a1_sin",
+        "b1_cos",
+        "a2_sin",
+        "b2_cos"
+      ],
+      "coefficients": [
+        425.752158339179,
+        46.035167898645,
+        -1.488398193659,
+        7.678049931426,
+        18.717263202722
+      ],
+      "training_residual_rmse": 9.157572420896
+    },
+    "rule_points": [
+      {
+        "global_index": 72,
+        "x": 590,
+        "y": 471.916
+      },
+      {
+        "global_index": 73,
+        "x": 622,
+        "y": 470.626
+      },
+      {
+        "global_index": 74,
+        "x": 654,
+        "y": 465.839
+      },
+      {
+        "global_index": 75,
+        "x": 686,
+        "y": 458.051
+      },
+      {
+        "global_index": 76,
+        "x": 718,
+        "y": 447.996
+      },
+      {
+        "global_index": 77,
+        "x": 750,
+        "y": 436.59
+      },
+      {
+        "global_index": 78,
+        "x": 782,
+        "y": 424.857
+      }
+    ],
+    "forecast": [
+      {
+        "global_index": 79,
+        "x": 1082,
+        "y": 413.842
+      },
+      {
+        "global_index": 80,
+        "x": 1091.2,
+        "y": 404.532
+      },
+      {
+        "global_index": 81,
+        "x": 1100.4,
+        "y": 397.77
+      },
+      {
+        "global_index": 82,
+        "x": 1109.6,
+        "y": 394.191
+      },
+      {
+        "global_index": 83,
+        "x": 1118.8,
+        "y": 394.168
+      },
+      {
+        "global_index": 84,
+        "x": 1128,
+        "y": 397.781
+      },
+      {
+        "global_index": 85,
+        "x": 1137.2,
+        "y": 404.813
+      },
+      {
+        "global_index": 86,
+        "x": 1146.4,
+        "y": 414.763
+      },
+      {
+        "global_index": 87,
+        "x": 1155.6,
+        "y": 426.892
+      },
+      {
+        "global_index": 88,
+        "x": 1164.8,
+        "y": 440.275
+      },
+      {
+        "global_index": 89,
+        "x": 1174,
+        "y": 453.88
+      },
+      {
+        "global_index": 90,
+        "x": 1183.2,
+        "y": 466.652
+      },
+      {
+        "global_index": 91,
+        "x": 1192.4,
+        "y": 477.594
+      },
+      {
+        "global_index": 92,
+        "x": 1201.6,
+        "y": 485.849
+      },
+      {
+        "global_index": 93,
+        "x": 1210.8,
+        "y": 490.772
+      },
+      {
+        "global_index": 94,
+        "x": 1220,
+        "y": 491.975
+      },
+      {
+        "global_index": 95,
+        "x": 1229.2,
+        "y": 489.366
+      },
+      {
+        "global_index": 96,
+        "x": 1238.4,
+        "y": 483.15
+      },
+      {
+        "global_index": 97,
+        "x": 1247.6,
+        "y": 473.819
+      },
+      {
+        "global_index": 98,
+        "x": 1256.8,
+        "y": 462.105
+      },
+      {
+        "global_index": 99,
+        "x": 1266,
+        "y": 448.926
+      },
+      {
+        "global_index": 100,
+        "x": 1275.2,
+        "y": 435.312
+      },
+      {
+        "global_index": 101,
+        "x": 1284.4,
+        "y": 422.319
+      },
+      {
+        "global_index": 102,
+        "x": 1293.6,
+        "y": 410.947
+      }
+    ],
+    "candidates": [
+      {
+        "id": "hypothesis-01",
+        "offset_y": -96,
+        "bridge_start": {
+          "x": 782,
+          "y": 424.857
+        },
+        "control_1": {
+          "x": 866,
+          "y": 407.577
+        },
+        "control_2": {
+          "x": 980,
+          "y": 346.137
+        },
+        "end": {
+          "x": 1060,
+          "y": 328.857
+        }
+      },
+      {
+        "id": "hypothesis-02",
+        "offset_y": -64,
+        "bridge_start": {
+          "x": 782,
+          "y": 424.857
+        },
+        "control_1": {
+          "x": 866,
+          "y": 413.337
+        },
+        "control_2": {
+          "x": 980,
+          "y": 372.377
+        },
+        "end": {
+          "x": 1060,
+          "y": 360.857
+        }
+      },
+      {
+        "id": "hypothesis-03",
+        "offset_y": -32,
+        "bridge_start": {
+          "x": 782,
+          "y": 424.857
+        },
+        "control_1": {
+          "x": 866,
+          "y": 419.097
+        },
+        "control_2": {
+          "x": 980,
+          "y": 398.617
+        },
+        "end": {
+          "x": 1060,
+          "y": 392.857
+        }
+      },
+      {
+        "id": "hypothesis-04",
+        "offset_y": 0,
+        "bridge_start": {
+          "x": 782,
+          "y": 424.857
+        },
+        "control_1": {
+          "x": 866,
+          "y": 424.857
+        },
+        "control_2": {
+          "x": 980,
+          "y": 424.857
+        },
+        "end": {
+          "x": 1060,
+          "y": 424.857
+        }
+      },
+      {
+        "id": "hypothesis-05",
+        "offset_y": 32,
+        "bridge_start": {
+          "x": 782,
+          "y": 424.857
+        },
+        "control_1": {
+          "x": 866,
+          "y": 430.617
+        },
+        "control_2": {
+          "x": 980,
+          "y": 451.097
+        },
+        "end": {
+          "x": 1060,
+          "y": 456.857
+        }
+      },
+      {
+        "id": "hypothesis-06",
+        "offset_y": 64,
+        "bridge_start": {
+          "x": 782,
+          "y": 424.857
+        },
+        "control_1": {
+          "x": 866,
+          "y": 436.377
+        },
+        "control_2": {
+          "x": 980,
+          "y": 477.337
+        },
+        "end": {
+          "x": 1060,
+          "y": 488.857
+        }
+      },
+      {
+        "id": "hypothesis-07",
+        "offset_y": 96,
+        "bridge_start": {
+          "x": 782,
+          "y": 424.857
+        },
+        "control_1": {
+          "x": 866,
+          "y": 442.137
+        },
+        "control_2": {
+          "x": 980,
+          "y": 503.577
+        },
+        "end": {
+          "x": 1060,
+          "y": 520.857
+        }
+      }
+    ],
+    "selected": {
+      "id": "hypothesis-04",
+      "offset_y": 0,
+      "bridge_start": {
+        "x": 782,
+        "y": 424.857
+      },
+      "control_1": {
+        "x": 866,
+        "y": 424.857
+      },
+      "control_2": {
+        "x": 980,
+        "y": 424.857
+      },
+      "end": {
+        "x": 1060,
+        "y": 424.857
+      }
+    }
+  },
+  "score": {
+    "metric": "root_mean_square_y_error",
+    "value": 11.26344,
+    "threshold": 18.315144841792,
+    "outcome": "threshold_met",
+    "interpretation": "Neither outcome is designated as aesthetically better."
+  },
+  "irreversibility": {
+    "alternate_round": false,
+    "resampling": false,
+    "parameter_revision_after_beacon": false,
+    "replacement_hypothesis_after_beacon": false,
+    "retry_after_stage_two_begins": false,
+    "same_round_transport_correction_before_stage_two": true,
+    "failed_predecessor_event_sequence": 111,
+    "failed_predecessor_event_hash": "64c29658701a168a304d5ec73776cce88967460226080e8d29d175d574d03dc8",
+    "infrastructure_repair_event_sequence": 112,
+    "infrastructure_repair_event_hash": "27712a9eda886db7faa3f239aab335c962467900b37f77cbe390d4f15b1b284b",
+    "failed_outputs_status": "unsealed_evidence_only_never_a_prior_artifact_or_shortcut",
+    "repair_attempt_rule": "One separately authorized new-identity Stage 1 attempt may occur only after exact review, installation, readiness, new commitment, and new RFC3161 validation, all before the unchanged target round and hard cutoff."
+  },
+  "statement": "The outcome was not available to the hypothesis-making stage. The committed hypothesis remains visually unchanged at full weight whether or not the threshold is met."
+}

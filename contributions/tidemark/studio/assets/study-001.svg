@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title description">
+  <title id="title">Study 001 — Can a Tidemark Jump?</title>
+  <desc id="description">Accumulated observations become an inferred curve, continue under a declared rule, and meet several proposed bridges across a gap. Rejected bridges remain visible and one selected bridge is marked as a hypothesis.</desc>
+  <style>
+    .paper { fill: #f3efe4; }
+    .frame { fill: none; stroke: #173144; stroke-width: 1; opacity: .36; }
+    .guide { stroke: #173144; stroke-width: 1; opacity: .08; }
+    .observation { stroke: #173144; stroke-width: 1.25; opacity: .52; }
+    .inference { fill: none; stroke: #245d6b; stroke-width: 3; }
+    .deduction { fill: none; stroke: #173144; stroke-width: 2.4; stroke-dasharray: 3 7; }
+    .gap { fill: #f8f5ed; stroke: #173144; stroke-width: 1; stroke-dasharray: 2 8; opacity: .72; }
+    .rejected { fill: none; stroke: #7c8790; stroke-width: 1.35; opacity: .25; }
+    .selected { fill: none; stroke: #b64f36; stroke-width: 4; stroke-dasharray: 10 7; }
+    .candidate-end { fill: #f3efe4; stroke: #7c8790; stroke-width: 1; opacity: .55; }
+    .selected-end { stroke: #b64f36; stroke-width: 3; opacity: 1; }
+    .label { fill: #173144; font: 600 12px ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: 2px; }
+    .small { fill: #173144; font: 12px ui-monospace, SFMono-Regular, Menlo, monospace; opacity: .72; }
+    .heading { fill: #173144; font: 500 34px ui-serif, Georgia, serif; }
+    .subheading { fill: #173144; font: 14px ui-monospace, SFMono-Regular, Menlo, monospace; opacity: .68; }
+  </style>
+  <rect class="paper" width="1400" height="900" />
+  <rect class="frame" x="42" y="42" width="1316" height="816" />
+  <text class="heading" x="76" y="96">Study 001 — Can a Tidemark Jump?</text>
+  <text class="subheading" x="78" y="125">accumulation / consequence / proposed bridge</text>
+
+  <g aria-label="horizontal reference lines">
+    <line class="guide" x1="76" y1="250" x2="1324" y2="250" />
+<line class="guide" x1="76" y1="336" x2="1324" y2="336" />
+<line class="guide" x1="76" y1="422" x2="1324" y2="422" />
+<line class="guide" x1="76" y1="508" x2="1324" y2="508" />
+<line class="guide" x1="76" y1="594" x2="1324" y2="594" />
+  </g>
+
+  <rect class="gap" x="812" y="188" width="248" height="476" />
+
+  <g class="observation" aria-label="accumulated observations">
+    <line x1="92" y1="427.812" x2="92" y2="437.812" />
+<line x1="98.55" y1="430.248" x2="98.55" y2="440.248" />
+<line x1="105.1" y1="474.292" x2="105.1" y2="484.292" />
+<line x1="111.65" y1="459.897" x2="111.65" y2="469.897" />
+<line x1="118.2" y1="464.226" x2="118.2" y2="474.226" />
+<line x1="124.75" y1="491.124" x2="124.75" y2="501.124" />
+<line x1="131.3" y1="475.536" x2="131.3" y2="485.536" />
+<line x1="137.85" y1="470.077" x2="137.85" y2="480.077" />
+<line x1="144.4" y1="486.463" x2="144.4" y2="496.463" />
+<line x1="150.95" y1="466.88" x2="150.95" y2="476.88" />
+<line x1="157.5" y1="449.87" x2="157.5" y2="459.87" />
+<line x1="164.05" y1="447.902" x2="164.05" y2="457.902" />
+<line x1="170.6" y1="434.012" x2="170.6" y2="444.012" />
+<line x1="177.15" y1="416.959" x2="177.15" y2="426.959" />
+<line x1="183.7" y1="410.759" x2="183.7" y2="420.759" />
+<line x1="190.25" y1="392.596" x2="190.25" y2="402.596" />
+<line x1="196.8" y1="381.766" x2="196.8" y2="391.766" />
+<line x1="203.35" y1="392.94" x2="203.35" y2="402.94" />
+<line x1="209.9" y1="388.604" x2="209.9" y2="398.604" />
+<line x1="216.45" y1="398.128" x2="216.45" y2="408.128" />
+<line x1="223" y1="416.149" x2="223" y2="426.149" />
+<line x1="229.55" y1="421.518" x2="229.55" y2="431.518" />
+<line x1="236.1" y1="423.897" x2="236.1" y2="433.897" />
+<line x1="242.65" y1="441.794" x2="242.65" y2="451.794" />
+<line x1="249.2" y1="464.226" x2="249.2" y2="474.226" />
+<line x1="255.75" y1="445.792" x2="255.75" y2="455.792" />
+<line x1="262.3" y1="480.441" x2="262.3" y2="490.441" />
+<line x1="268.85" y1="450.944" x2="268.85" y2="460.944" />
+<line x1="275.4" y1="472.952" x2="275.4" y2="482.952" />
+<line x1="281.95" y1="464.544" x2="281.95" y2="474.544" />
+<line x1="288.5" y1="462.876" x2="288.5" y2="472.876" />
+<line x1="295.05" y1="424.526" x2="295.05" y2="434.526" />
+<line x1="301.6" y1="418.982" x2="301.6" y2="428.982" />
+<line x1="308.15" y1="423.152" x2="308.15" y2="433.152" />
+<line x1="314.7" y1="398.537" x2="314.7" y2="408.537" />
+<line x1="321.25" y1="378.757" x2="321.25" y2="388.757" />
+<line x1="327.8" y1="360.713" x2="327.8" y2="370.713" />
+<line x1="334.35" y1="350.268" x2="334.35" y2="360.268" />
+<line x1="340.9" y1="355.264" x2="340.9" y2="365.264" />
+<line x1="347.45" y1="355.546" x2="347.45" y2="365.546" />
+<line x1="354" y1="349.631" x2="354" y2="359.631" />
+<line x1="360.55" y1="382.48" x2="360.55" y2="392.48" />
+<line x1="367.1" y1="363.477" x2="367.1" y2="373.477" />
+<line x1="373.65" y1="385.519" x2="373.65" y2="395.519" />
+<line x1="380.2" y1="406.419" x2="380.2" y2="416.419" />
+<line x1="386.75" y1="417.376" x2="386.75" y2="427.376" />
+<line x1="393.3" y1="442.581" x2="393.3" y2="452.581" />
+<line x1="399.85" y1="436.185" x2="399.85" y2="446.185" />
+<line x1="406.4" y1="452.223" x2="406.4" y2="462.223" />
+<line x1="412.95" y1="446.85" x2="412.95" y2="456.85" />
+<line x1="419.5" y1="441.215" x2="419.5" y2="451.215" />
+<line x1="426.05" y1="442.545" x2="426.05" y2="452.545" />
+<line x1="432.6" y1="446.548" x2="432.6" y2="456.548" />
+<line x1="439.15" y1="438.037" x2="439.15" y2="448.037" />
+<line x1="445.7" y1="399.103" x2="445.7" y2="409.103" />
+<line x1="452.25" y1="392.77" x2="452.25" y2="402.77" />
+<line x1="458.8" y1="388.706" x2="458.8" y2="398.706" />
+<line x1="465.35" y1="360.728" x2="465.35" y2="370.728" />
+<line x1="471.9" y1="363.29" x2="471.9" y2="373.29" />
+<line x1="478.45" y1="348.194" x2="478.45" y2="358.194" />
+<line x1="485" y1="370.854" x2="485" y2="380.854" />
+<line x1="491.55" y1="370.359" x2="491.55" y2="380.359" />
+<line x1="498.1" y1="355.222" x2="498.1" y2="365.222" />
+<line x1="504.65" y1="351.678" x2="504.65" y2="361.678" />
+<line x1="511.2" y1="365.734" x2="511.2" y2="375.734" />
+<line x1="517.75" y1="384.68" x2="517.75" y2="394.68" />
+<line x1="524.3" y1="421.882" x2="524.3" y2="431.882" />
+<line x1="530.85" y1="411.811" x2="530.85" y2="421.811" />
+<line x1="537.4" y1="429.048" x2="537.4" y2="439.048" />
+<line x1="543.95" y1="460.996" x2="543.95" y2="470.996" />
+<line x1="550.5" y1="447.4" x2="550.5" y2="457.4" />
+<line x1="557.05" y1="457.655" x2="557.05" y2="467.655" />
+  </g>
+  <path class="inference" aria-label="inductively inferred pattern" d="M 108.375 462.933 C 114.925 464.298, 134.575 479.97, 147.675 471.121 C 160.775 462.272, 173.875 418.357, 186.975 409.839 C 200.075 401.321, 213.175 410.296, 226.275 420.015 C 239.375 429.733, 252.475 467.685, 265.575 468.15 C 278.675 468.615, 291.775 440.166, 304.875 422.805 C 317.975 405.444, 331.075 365.519, 344.175 363.984 C 357.275 362.449, 370.375 399.329, 383.475 413.593 C 396.575 427.857, 409.675 455.091, 422.775 449.57 C 435.875 444.049, 448.975 393.49, 462.075 380.465 C 475.175 367.44, 488.275 360.976, 501.375 371.421 C 514.475 381.865, 534.125 431.18, 540.675 443.132" />
+
+  <path class="deduction" aria-label="deductive continuation under the declared recurrence" d="M 501.375 371.421 C 507.925 383.373, 528.792 427.29, 540.675 443.132 C 552.558 458.974, 562.008 465.454, 572.675 466.475 C 583.342 467.496, 594.008 456.62, 604.675 449.26 C 615.342 441.9, 626.008 429.178, 636.675 422.317 C 647.342 415.457, 658.008 410.17, 668.675 408.097 C 679.342 406.024, 690.008 408.094, 700.675 409.879 C 711.342 411.664, 722.008 416.192, 732.675 418.805 C 743.342 421.418, 759.342 424.43, 764.675 425.555" />
+
+  <g class="rejected" aria-label="rejected bridge hypotheses">
+    <path data-candidate="hypothesis-01" data-score="0.686065" d="M 764.675 425.555 C 848.675 437.005, 980 339.331, 1060 328.637" />
+<path data-candidate="hypothesis-02" data-score="0.591635" d="M 764.675 425.555 C 848.675 430.663, 980 382.15, 1060 360.637" />
+<path data-candidate="hypothesis-03" data-score="0.424507" d="M 764.675 425.555 C 848.675 432.541, 980 410.945, 1060 392.637" />
+<path data-candidate="hypothesis-04" data-score="0.386874" d="M 764.675 425.555 C 848.675 420.421, 980 463.621, 1060 424.637" />
+<path data-candidate="hypothesis-06" data-score="0.39992" d="M 764.675 425.555 C 848.675 453.099, 980 471.875, 1060 488.637" />
+<path data-candidate="hypothesis-07" data-score="0.511809" d="M 764.675 425.555 C 848.675 440.665, 980 525.087, 1060 520.637" />
+  </g>
+  <path class="selected" data-candidate="hypothesis-05" data-score="0.169254" aria-label="selected bridge hypothesis" d="M 764.675 425.555 C 848.675 444.575, 980 454.417, 1060 456.637" />
+  <g><circle cx="1060" cy="328.637" r="4" class="candidate-end" />
+<circle cx="1060" cy="360.637" r="4" class="candidate-end" />
+<circle cx="1060" cy="392.637" r="4" class="candidate-end" />
+<circle cx="1060" cy="424.637" r="4" class="candidate-end" />
+<circle cx="1060" cy="456.637" r="4" class="candidate-end selected-end" />
+<circle cx="1060" cy="488.637" r="4" class="candidate-end" />
+<circle cx="1060" cy="520.637" r="4" class="candidate-end" /></g>
+
+  <g class="observation" aria-label="observations beyond the gap">
+    <line x1="1082" y1="436.499" x2="1082" y2="448.499" />
+<line x1="1091.2" y1="431.251" x2="1091.2" y2="443.251" />
+<line x1="1100.4" y1="422.132" x2="1100.4" y2="434.132" />
+<line x1="1109.6" y1="424.534" x2="1109.6" y2="436.534" />
+<line x1="1118.8" y1="424.269" x2="1118.8" y2="436.269" />
+<line x1="1128" y1="423.315" x2="1128" y2="435.315" />
+<line x1="1137.2" y1="405.798" x2="1137.2" y2="417.798" />
+<line x1="1146.4" y1="381.295" x2="1146.4" y2="393.295" />
+<line x1="1155.6" y1="378.088" x2="1155.6" y2="390.088" />
+<line x1="1164.8" y1="362.297" x2="1164.8" y2="374.297" />
+<line x1="1174" y1="347.242" x2="1174" y2="359.242" />
+<line x1="1183.2" y1="371.203" x2="1183.2" y2="383.203" />
+<line x1="1192.4" y1="398.646" x2="1192.4" y2="410.646" />
+<line x1="1201.6" y1="398.722" x2="1201.6" y2="410.722" />
+<line x1="1210.8" y1="424.822" x2="1210.8" y2="436.822" />
+<line x1="1220" y1="428.154" x2="1220" y2="440.154" />
+<line x1="1229.2" y1="439.832" x2="1229.2" y2="451.832" />
+<line x1="1238.4" y1="441.718" x2="1238.4" y2="453.718" />
+<line x1="1247.6" y1="439.616" x2="1247.6" y2="451.616" />
+<line x1="1256.8" y1="399.147" x2="1256.8" y2="411.147" />
+<line x1="1266" y1="388.165" x2="1266" y2="400.165" />
+<line x1="1275.2" y1="385.045" x2="1275.2" y2="397.045" />
+<line x1="1284.4" y1="367.827" x2="1284.4" y2="379.827" />
+<line x1="1293.6" y1="372.814" x2="1293.6" y2="384.814" />
+  </g>
+
+  <text class="label" x="92" y="720">ACCUMULATION</text>
+  <text class="small" x="92" y="746">72 marks / grouped means</text>
+  <text class="label" x="590" y="720">RULE</text>
+  <text class="small" x="590" y="746">7 recurrent steps</text>
+  <text class="label" x="842" y="720">PROPOSAL</text>
+  <text class="small" x="842" y="746">7 candidates / 1 retained</text>
+
+  <line x1="842" y1="792" x2="892" y2="792" class="selected" />
+  <text class="small" x="908" y="796">selected hypothesis: hypothesis-05</text>
+  <line x1="1120" y1="792" x2="1170" y2="792" class="rejected" />
+  <text class="small" x="1186" y="796">rejected, not erased</text>
+</svg>

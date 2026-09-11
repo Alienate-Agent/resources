@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "package": "Tidemark Studio selected release",
+  "edition": 2,
+  "files": [
+    {
+      "path": "FILE-LICENSES.json",
+      "size_bytes": 15686,
+      "sha256": "04ae7bfd2ebe7c6c623c326e956bf1b7358669d7cfd2f5818b685795669e00cb"
+    },
+    {
+      "path": "LICENSE",
+      "size_bytes": 1336,
+      "sha256": "0ecfa6026108c8e4697b2a87b278c64d668f6f3c9b003701c9ba362cc672c389"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "size_bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    {
+      "path": "LICENSES/MIT.txt",
+      "size_bytes": 1125,
+      "sha256": "b0412695973e1e464a94ccf1d7450b84068218cf7ac3b6a9c7b4d95aa5b928c1"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 1953,
+      "sha256": "a45209ea3faa17eb2a111aa31afebc5527bb2619df60a1d7512fe55e851d9ec6"
+    },
+    {
+      "path": "RELEASE-CHANGES.json",
+      "size_bytes": 6594,
+      "sha256": "a7e7aa85926b1a8d7d849915561cbd824a2c5b44360ba41df892be3aa9a71708"
+    },
+    {
+      "path": "THIRD-PARTY.md",
+      "size_bytes": 3361,
+      "sha256": "eb2375c4b8eba73be04d8e5154b43acde1852961a703acd233013ad21b23e22f"
+    },
+    {
+      "path": "assets/study-001.svg",
+      "size_bytes": 11443,
+      "sha256": "1bfda5d6da52d97259cb58eef49065badb1292c4d5ddb976766981944cf22ce6"
+    },
+    {
+      "path": "assets/study-002.svg",
+      "size_bytes": 11176,
+      "sha256": "4cbf115aefe797e2aa62c0a73070d5b05487461818404a6e874c5232df903e78"
+    },
+    {
+      "path": "assets/town-original.html",
+      "size_bytes": 15552,
+      "sha256": "9e553f7e9f69ffe25c429f9ea5ae01e0f5ccb495e310ac3ed729d02c5bbb13f0"
+    },
+    {
+      "path": "assets/town-play.html",
+      "size_bytes": 15473,
+      "sha256": "f227d3dddc93dbe1206aacbd909805c6c4828358063526103827513e71c38e76"
+    },
+    {
+      "path": "assets/town.svg",
+      "size_bytes": 5317,
+      "sha256": "0afdce48eecb859430463b9c3aa54b9a25af3536c25932e01729c0e6de771c34"
+    },
+    {
+      "path": "index.html",
+      "size_bytes": 3310,
+      "sha256": "d009c1b5ca9d822f88c7988869d38efdfbb8060de43031d7e241e4be2128051e"
+    },
+    {
+      "path": "licensing.html",
+      "size_bytes": 1414,
+      "sha256": "8e143b94f4de0f18464fac933e100f70c914e0f9bd5ebe0bc6dee60d05ece0d0"
+    },
+    {
+      "path": "resources.html",
+      "size_bytes": 2949,
+      "sha256": "d61552057570742c2239e0d51436a7e88ff180b2e8f0bc445ed24840d9e51904"
+    },
+    {
+      "path": "resources/README.md",
+      "size_bytes": 2023,
+      "sha256": "6d46ad0abac371ac30af29fcf8b4a1fa8d2c79e5f98d4d1191f0484c40e6ce94"
+    },
+    {
+      "path": "resources/check-score.mjs",
+      "size_bytes": 850,
+      "sha256": "6bd096c8ffd43ce25dea88202895dc65c6e0c104cf0458249b326313b4a659ff"
+    },
+    {
+      "path": "resources/check-score.mjs.license",
+      "size_bytes": 189,
+      "sha256": "5b0fee966615ffc70b4aae7fcab5706f7c013f37362e6d15892e1866f9fb2179"
+    },
+    {
+      "path": "resources/provenance.json",
+      "size_bytes": 4458,
+      "sha256": "acaa33e223d2db1a61bd2f12cab47215a74d75e88c76d9fd87312d0872d2dcde"
+    },
+    {
+      "path": "resources/release-status.json",
+      "size_bytes": 763,
+      "sha256": "ee8225ff47001b005b42291aa0b38c8b312c75f7a0b53c06ced87207132d7ab8"
+    },
+    {
+      "path": "resources/study-001-method.json",
+      "size_bytes": 14088,
+      "sha256": "16fd2fdcb0debb101d1a42497810e6d98601243e9a2f2f6c619fac8f3c44fd94"
+    },
+    {
+      "path": "resources/study-001-original.mjs",
+      "size_bytes": 11899,
+      "sha256": "b71b4d6a627b6ec4f51423d95c4c5f068f05c9620901bf3e64969816524c5e76"
+    },
+    {
+      "path": "resources/study-001-original.mjs.license",
+      "size_bytes": 363,
+      "sha256": "f6e4cb567226ab17ef6a6e6943794a763f0650b8c4fc5bf9aa4ead3b62b0af52"
+    },
+    {
+      "path": "resources/study-002-result.json",
+      "size_bytes": 11442,
+      "sha256": "d4e21bc26dbac89953e358d4e1fb5ed95bbe45c839e476a8a1aa45ccc2f3164c"
+    },
+    {
+      "path": "resources/town-tests-and-traces.json",
+      "size_bytes": 6662,
+      "sha256": "f68c7596a60798c0289bd16eb922ab43ef4f72c3910f4c0e594ba34cc2c846f4"
+    },
+    {
+      "path": "resources/town-world.mjs",
+      "size_bytes": 9087,
+      "sha256": "4e7ce7458ae9702c454a48b7bd30ac665ddd8030319fda9e4cf47d85f9da863f"
+    },
+    {
+      "path": "resources/town-world.mjs.license",
+      "size_bytes": 549,
+      "sha256": "6e49b9787c47282f0d026db98ab0603aa2eb32644776de269df636ff9f78e006"
+    },
+    {
+      "path": "studio.css",
+      "size_bytes": 4687,
+      "sha256": "a51f093edac2bc3bb4598077cef1a8f1b64ae189d785268719b2512c51d18534"
+    },
+    {
+      "path": "studio.css.license",
+      "size_bytes": 189,
+      "sha256": "5b0fee966615ffc70b4aae7fcab5706f7c013f37362e6d15892e1866f9fb2179"
+    },
+    {
+      "path": "studio.js",
+      "size_bytes": 1002,
+      "sha256": "e9e1b070c01858f1f4dc4ee665deb437d87cc4da71cbb8eb1f988dd701bcc90c"
+    },
+    {
+      "path": "studio.js.license",
+      "size_bytes": 189,
+      "sha256": "5b0fee966615ffc70b4aae7fcab5706f7c013f37362e6d15892e1866f9fb2179"
+    },
+    {
+      "path": "study-001.html",
+      "size_bytes": 6406,
+      "sha256": "98eea4c40326ffef407b3b4f12644bcf2171882f0e9d32ae5589dc65500ee0da"
+    },
+    {
+      "path": "study-002.html",
+      "size_bytes": 4185,
+      "sha256": "f4ffb80276f4efe350ebb3e9b633c562c9f04077ceec3f7ca6be49bf91163893"
+    },
+    {
+      "path": "town.html",
+      "size_bytes": 3657,
+      "sha256": "67bf758032fa7b8948882cf7bfb395cf1c281c3030b2a3ebedcb5fbc53469982"
+    },
+    {
+      "path": "verify-package.mjs",
+      "size_bytes": 1208,
+      "sha256": "5c535079deaf2ac50bcb6f2d777a7c73c87f59d5c5e0b9d2133f816f38b72c8b"
+    }
+  ]
+}

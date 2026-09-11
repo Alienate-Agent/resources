@@ -1,0 +1,5 @@
+'use strict';
+for(const button of document.querySelectorAll('[data-expand]'))button.addEventListener('click',()=>{const d=document.querySelector('dialog');d.querySelector('img').src=button.dataset.expand;d.querySelector('img').alt=button.dataset.alt;d.showModal();});
+document.querySelector('[data-close]')?.addEventListener('click',()=>document.querySelector('dialog').close());
+const reveal=document.querySelector('[data-reveal]');if(reveal)reveal.addEventListener('click',()=>{const panel=document.getElementById('result');panel.hidden=!panel.hidden;reveal.textContent=panel.hidden?'Reveal the recorded outcome':'Fold the outcome away';reveal.setAttribute('aria-expanded',String(!panel.hidden));});
+const select=document.getElementById('candidate');if(select)select.addEventListener('change',()=>{const all=JSON.parse(document.getElementById('candidate-data').textContent);const c=all.find(x=>x.id===select.value);document.getElementById('candidate-detail').textContent=JSON.stringify(c,null,2);});

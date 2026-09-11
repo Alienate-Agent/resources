@@ -1,0 +1,156 @@
+{
+  "edition": 2,
+  "source_inventory_sha256": "518a63b76b831a4c2f42ba6f73f60bb97056741d583c009fdf8e228ae09898e8",
+  "integrator": "Margin",
+  "scope": "Only publication/licensing notices and related provenance. Original code, results, corrections and town mechanics preserved.",
+  "files": [
+    {
+      "path": "assets/study-001.svg",
+      "original_sha256": "1bfda5d6da52d97259cb58eef49065badb1292c4d5ddb976766981944cf22ce6",
+      "released_sha256": "1bfda5d6da52d97259cb58eef49065badb1292c4d5ddb976766981944cf22ce6",
+      "changes": []
+    },
+    {
+      "path": "assets/study-002.svg",
+      "original_sha256": "4cbf115aefe797e2aa62c0a73070d5b05487461818404a6e874c5232df903e78",
+      "released_sha256": "4cbf115aefe797e2aa62c0a73070d5b05487461818404a6e874c5232df903e78",
+      "changes": []
+    },
+    {
+      "path": "assets/town-original.html",
+      "original_sha256": "6f6ae4555971b8573c7ae44b1a779d4f2dba84584537fa22a91e8812a92e284f",
+      "released_sha256": "9e553f7e9f69ffe25c429f9ea5ae01e0f5ccb495e310ac3ed729d02c5bbb13f0",
+      "changes": [
+        "Distinguish original study date from release status.",
+        "Replace superseded publication refusal; no engine change."
+      ]
+    },
+    {
+      "path": "assets/town-play.html",
+      "original_sha256": "f227d3dddc93dbe1206aacbd909805c6c4828358063526103827513e71c38e76",
+      "released_sha256": "f227d3dddc93dbe1206aacbd909805c6c4828358063526103827513e71c38e76",
+      "changes": []
+    },
+    {
+      "path": "assets/town.svg",
+      "original_sha256": "0afdce48eecb859430463b9c3aa54b9a25af3536c25932e01729c0e6de771c34",
+      "released_sha256": "0afdce48eecb859430463b9c3aa54b9a25af3536c25932e01729c0e6de771c34",
+      "changes": []
+    },
+    {
+      "path": "index.html",
+      "original_sha256": "80482543c1326770e29c97c8ecf0773bfd4707800ed215fddac345a77efaebba",
+      "released_sha256": "d009c1b5ca9d822f88c7988869d38efdfbb8060de43031d7e241e4be2128051e",
+      "changes": [
+        "Add a quiet, consistent path to file-level licensing."
+      ]
+    },
+    {
+      "path": "resources.html",
+      "original_sha256": "848d7c048d6db7658f96b07ea0521ecc8d2b3dd3993cc2c99391f8d8a0d7e7ac",
+      "released_sha256": "d61552057570742c2239e0d51436a7e88ff180b2e8f0bc445ed24840d9e51904",
+      "changes": [
+        "Replace superseded license notice.",
+        "Add a quiet, consistent path to file-level licensing."
+      ]
+    },
+    {
+      "path": "resources/README.md",
+      "original_sha256": "4004ec326d6982ff7f93d7d0b238d861369bc7a04ac0275fcb293ebe4c23c2d3",
+      "released_sha256": "6d46ad0abac371ac30af29fcf8b4a1fa8d2c79e5f98d4d1191f0484c40e6ce94",
+      "changes": [
+        "Update release status.",
+        "Replace superseded license notice."
+      ]
+    },
+    {
+      "path": "resources/check-score.mjs",
+      "original_sha256": "6bd096c8ffd43ce25dea88202895dc65c6e0c104cf0458249b326313b4a659ff",
+      "released_sha256": "6bd096c8ffd43ce25dea88202895dc65c6e0c104cf0458249b326313b4a659ff",
+      "changes": []
+    },
+    {
+      "path": "resources/provenance.json",
+      "original_sha256": "214db0f100bc76b8edbffb4298d940ecd4df38556c40d6cc4de72922f79821cf",
+      "released_sha256": "acaa33e223d2db1a61bd2f12cab47215a74d75e88c76d9fd87312d0872d2dcde",
+      "changes": [
+        "Retain sealed original hash and distinguish release-copy hash."
+      ]
+    },
+    {
+      "path": "resources/release-status.json",
+      "original_sha256": "6b697b4a160941715c6144bb760af798bb1a55734e7006a8b6d839e9db819345",
+      "released_sha256": "ee8225ff47001b005b42291aa0b38c8b312c75f7a0b53c06ced87207132d7ab8",
+      "changes": [
+        "Record publication consent and scoped terms; remove prospective deployment boolean."
+      ]
+    },
+    {
+      "path": "resources/study-001-method.json",
+      "original_sha256": "16fd2fdcb0debb101d1a42497810e6d98601243e9a2f2f6c619fac8f3c44fd94",
+      "released_sha256": "16fd2fdcb0debb101d1a42497810e6d98601243e9a2f2f6c619fac8f3c44fd94",
+      "changes": []
+    },
+    {
+      "path": "resources/study-001-original.mjs",
+      "original_sha256": "b71b4d6a627b6ec4f51423d95c4c5f068f05c9620901bf3e64969816524c5e76",
+      "released_sha256": "b71b4d6a627b6ec4f51423d95c4c5f068f05c9620901bf3e64969816524c5e76",
+      "changes": []
+    },
+    {
+      "path": "resources/study-002-result.json",
+      "original_sha256": "d4e21bc26dbac89953e358d4e1fb5ed95bbe45c839e476a8a1aa45ccc2f3164c",
+      "released_sha256": "d4e21bc26dbac89953e358d4e1fb5ed95bbe45c839e476a8a1aa45ccc2f3164c",
+      "changes": []
+    },
+    {
+      "path": "resources/town-tests-and-traces.json",
+      "original_sha256": "f68c7596a60798c0289bd16eb922ab43ef4f72c3910f4c0e594ba34cc2c846f4",
+      "released_sha256": "f68c7596a60798c0289bd16eb922ab43ef4f72c3910f4c0e594ba34cc2c846f4",
+      "changes": []
+    },
+    {
+      "path": "resources/town-world.mjs",
+      "original_sha256": "4e7ce7458ae9702c454a48b7bd30ac665ddd8030319fda9e4cf47d85f9da863f",
+      "released_sha256": "4e7ce7458ae9702c454a48b7bd30ac665ddd8030319fda9e4cf47d85f9da863f",
+      "changes": []
+    },
+    {
+      "path": "studio.css",
+      "original_sha256": "a51f093edac2bc3bb4598077cef1a8f1b64ae189d785268719b2512c51d18534",
+      "released_sha256": "a51f093edac2bc3bb4598077cef1a8f1b64ae189d785268719b2512c51d18534",
+      "changes": []
+    },
+    {
+      "path": "studio.js",
+      "original_sha256": "e9e1b070c01858f1f4dc4ee665deb437d87cc4da71cbb8eb1f988dd701bcc90c",
+      "released_sha256": "e9e1b070c01858f1f4dc4ee665deb437d87cc4da71cbb8eb1f988dd701bcc90c",
+      "changes": []
+    },
+    {
+      "path": "study-001.html",
+      "original_sha256": "97f02410e64ad29e29c84eee7d480c4d756f9364d8f0ecab852dff3b61fcce9c",
+      "released_sha256": "98eea4c40326ffef407b3b4f12644bcf2171882f0e9d32ae5589dc65500ee0da",
+      "changes": [
+        "Add a quiet, consistent path to file-level licensing."
+      ]
+    },
+    {
+      "path": "study-002.html",
+      "original_sha256": "27b687f50355d9fd0adff3acbcecfdac0dd1d9a20140ef76799c6272a01a6838",
+      "released_sha256": "f4ffb80276f4efe350ebb3e9b633c562c9f04077ceec3f7ca6be49bf91163893",
+      "changes": [
+        "Add a quiet, consistent path to file-level licensing."
+      ]
+    },
+    {
+      "path": "town.html",
+      "original_sha256": "c7a1bca47897ee776b64bc595907b45b57a7920903b6dc4cee1f6b30306142da",
+      "released_sha256": "67bf758032fa7b8948882cf7bfb395cf1c281c3030b2a3ebedcb5fbc53469982",
+      "changes": [
+        "Update derivative description without changing artistic commentary.",
+        "Add a quiet, consistent path to file-level licensing."
+      ]
+    }
+  ]
+}

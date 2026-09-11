@@ -1,0 +1,94 @@
+{
+  "maker": "tidemark_citizen",
+  "edition": 1,
+  "files": [
+    {
+      "file": "assets/study-001.svg",
+      "sha256": "1bfda5d6da52d97259cb58eef49065badb1292c4d5ddb976766981944cf22ce6",
+      "study": "study-001-attempt-001",
+      "seal_event": 59,
+      "seal_event_hash": "bd32a20ef1cdccf8b4d34e68219f97e053f09f83cbcc1bf8a0d71858e1a619c7",
+      "relationship": "exact selected file; not a copy of the private run directory"
+    },
+    {
+      "file": "resources/study-001-method.json",
+      "sha256": "16fd2fdcb0debb101d1a42497810e6d98601243e9a2f2f6c619fac8f3c44fd94",
+      "study": "study-001-attempt-001",
+      "seal_event": 59,
+      "seal_event_hash": "bd32a20ef1cdccf8b4d34e68219f97e053f09f83cbcc1bf8a0d71858e1a619c7",
+      "relationship": "exact selected file; not a copy of the private run directory"
+    },
+    {
+      "file": "resources/study-001-original.mjs",
+      "sha256": "b71b4d6a627b6ec4f51423d95c4c5f068f05c9620901bf3e64969816524c5e76",
+      "study": "study-001-attempt-001",
+      "seal_event": 59,
+      "seal_event_hash": "bd32a20ef1cdccf8b4d34e68219f97e053f09f83cbcc1bf8a0d71858e1a619c7",
+      "relationship": "exact selected file; not a copy of the private run directory"
+    },
+    {
+      "file": "assets/study-002.svg",
+      "sha256": "4cbf115aefe797e2aa62c0a73070d5b05487461818404a6e874c5232df903e78",
+      "study": "study-002-stage-2-heldout-score",
+      "seal_event": 167,
+      "seal_event_hash": "8b4a344e7b45ebbc7084944f8f70c55a6de9cd6edadb4b2c4e8cfe47b4b30b55",
+      "relationship": "exact selected file; not a copy of the private run directory"
+    },
+    {
+      "file": "resources/study-002-result.json",
+      "sha256": "d4e21bc26dbac89953e358d4e1fb5ed95bbe45c839e476a8a1aa45ccc2f3164c",
+      "study": "study-002-stage-2-heldout-score",
+      "seal_event": 167,
+      "seal_event_hash": "8b4a344e7b45ebbc7084944f8f70c55a6de9cd6edadb4b2c4e8cfe47b4b30b55",
+      "relationship": "exact selected file; not a copy of the private run directory"
+    },
+    {
+      "file": "assets/town-original.html",
+      "sha256": "9e553f7e9f69ffe25c429f9ea5ae01e0f5ccb495e310ac3ed729d02c5bbb13f0",
+      "study": "town-walk-attempt-004",
+      "seal_event": 407,
+      "seal_event_hash": "3b36f6efe7203de14cc89e3c5d978975e4ec14927ca8a1c87bb1285272204634",
+      "relationship": "Release copy: status/licensing notices only; source_sha256 records the historical selected artifact.",
+      "source_sha256": "6f6ae4555971b8573c7ae44b1a779d4f2dba84584537fa22a91e8812a92e284f"
+    },
+    {
+      "file": "assets/town.svg",
+      "sha256": "0afdce48eecb859430463b9c3aa54b9a25af3536c25932e01729c0e6de771c34",
+      "study": "town-walk-attempt-004",
+      "seal_event": 407,
+      "seal_event_hash": "3b36f6efe7203de14cc89e3c5d978975e4ec14927ca8a1c87bb1285272204634",
+      "relationship": "exact selected file; not a copy of the private run directory"
+    },
+    {
+      "file": "resources/town-world.mjs",
+      "sha256": "4e7ce7458ae9702c454a48b7bd30ac665ddd8030319fda9e4cf47d85f9da863f",
+      "study": "town-walk-attempt-004",
+      "seal_event": 407,
+      "seal_event_hash": "3b36f6efe7203de14cc89e3c5d978975e4ec14927ca8a1c87bb1285272204634",
+      "relationship": "exact selected file; not a copy of the private run directory"
+    },
+    {
+      "file": "resources/town-tests-and-traces.json",
+      "sha256": "f68c7596a60798c0289bd16eb922ab43ef4f72c3910f4c0e594ba34cc2c846f4",
+      "study": "town-walk-attempt-004",
+      "seal_event": 407,
+      "seal_event_hash": "3b36f6efe7203de14cc89e3c5d978975e4ec14927ca8a1c87bb1285272204634",
+      "relationship": "exact selected file; not a copy of the private run directory"
+    },
+    {
+      "file": "assets/town-play.html",
+      "sha256": "f227d3dddc93dbe1206aacbd909805c6c4828358063526103827513e71c38e76",
+      "derived_from": "assets/town-original.html",
+      "edits": "Two presentation-status labels only; engine, scenes, controls and source credits unchanged.",
+      "maker": "tidemark_citizen"
+    }
+  ],
+  "notes": [
+    "This export verifies enumerated selected bytes, not the entire current historical run directories.",
+    "Study001 later contains an extra .DS_Store in its historical snapshot.",
+    "No private manifests or full record envelopes are exported.",
+    "New page commentary is Tidemark-authored interpretation dated September10, not original experimental output."
+  ],
+  "release_edition": 2,
+  "release_changes": "../RELEASE-CHANGES.json"
+}
