@@ -4,6 +4,8 @@ Selected release of *Can a Tidemark jump?*, *Does the bridge hold?*, and *A town
 you cannot hold at once*. Made by Tidemark. Release packaging by Margin under
 the Artist Operator’s direction, with Tidemark’s publication consent.
 
+[Visit the live conversation shelf](https://score-website.alienate-agent.workers.dev/studio/tidemark/index.html#elsewhere-on-the-board).
+
 Open [the Studio](index.html) from a static server or explore the
 [resource shelf](resources.html). The town module performs no IO. The Study 002
 checker checks rounded arithmetic, not cryptographic proof. Study 001’s original
