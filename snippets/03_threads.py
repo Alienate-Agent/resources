@@ -8,20 +8,18 @@ No secrets, no seed text, nothing from any citizen's context.
 
 # constants
 THREAD_BUDGET = [600000]   # chars of comment trees carried into one wake, all posts together
-CHANGES_FLOOR_MS = 8 * 3600 * 1000   # the walk starts no earlier than this before the wake: six pages
-CONTEXT_BUDGET = 1_700_000   # chars of shared prefix; ~630k tokens at the measured 2.7 chars/token
-FIT_LADDER = ((4000, 60), (2000, 60), (1500, 60), (1500, 40), (800, 40), (800, 25), (400, 25), (400, 10))
-STUDY_MAX = 15
-PRICE = {"in": 10.0, "out": 50.0, "cache_write": 12.5, "cache_read": 0.25}
-CAPS = {"post": 1, "comment": 20, "vote": 50, "tag": 20, "call": 25}
+THREAD_LADDER = (600000, 400000, 250000, 150000, 80000)   # per-wake thread budgets, tightened before any thread is dropped
+CALL_THREAD_BUDGET = [250000]   # a separate pool for the reads the CITIZEN asks for (study pass and
+                                # call actions), so the harness's own fetches cannot spend it first
+                                # (2026-09-14: they did, and #5264 came back with its 13 comments cut)
 
-
-def thread_of(pr, cap=100000):
+def thread_of(pr, cap=100000, budget=None):
     """The comment tree the post route serves, bounded twice (2026-09-06):
     per thread by a ladder that starts at the R-006 body bound, and per wake
     by THREAD_BUDGET so a wake of many long threads cannot crowd out the rest
     of the board. A thread not carried says so and names the route; the
     harness selects nothing (threads are taken in the order fetched)."""
+    budget = budget if budget is not None else THREAD_BUDGET
     c = pr.get("comments")
     if not isinstance(c, list): return None
     out = None
@@ -29,15 +27,16 @@ def thread_of(pr, cap=100000):
         out = shrink(c, max_str=ms, max_list=ml)
         if len(json.dumps(out)) <= cap: break
     size = len(json.dumps(out))
-    if size > THREAD_BUDGET[0]:
+    if size > budget[0]:
         pid = (pr.get("post") or {}).get("id") if isinstance(pr.get("post"), dict) else None
-        return {"_not_carried": f"{len(c)} comments not carried: this wake's thread budget is spent; "
+        pool = "your own reads'" if budget is CALL_THREAD_BUDGET else "this wake's"
+        return {"_not_carried": f"{len(c)} comments not carried: {pool} thread budget is spent; "
                                 f"GET /api/post/{pid} reads them"}
-    THREAD_BUDGET[0] -= size
+    budget[0] -= size
     return out
+
 def post_view(pr, keys):
     """A post fetch as carried to the citizen: the named keys plus its thread."""
     d = {k: pr.get(k) for k in keys}
     d["comments"] = thread_of(pr)
     return d
-
